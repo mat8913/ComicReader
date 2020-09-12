@@ -28,7 +28,8 @@ from .window import ComicReaderWindow
 class Application(Gtk.Application):
     def __init__(self):
         super().__init__(application_id='name.mbekkema.ComicReader',
-                         flags=Gio.ApplicationFlags.HANDLES_OPEN)
+                         flags=Gio.ApplicationFlags.HANDLES_OPEN
+                         | Gio.ApplicationFlags.NON_UNIQUE)
 
     def do_activate(self):
         fc = Gtk.FileChooserNative(title="Select comic folder", action=Gtk.FileChooserAction.SELECT_FOLDER)
