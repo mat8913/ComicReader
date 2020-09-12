@@ -1,0 +1,7 @@
+data/name.mbekkema.ComicReader.desktop.in
+data/name.mbekkema.ComicReader.appdata.xml.in
+data/name.mbekkema.ComicReader.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Comic Reader
+Exec=comicreader
+Terminal=false
+Type=Application
+Icon=text-x-generic
+Categories=Office;Viewer;GTK;GNOME;
+StartupNotify=true
