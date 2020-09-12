@@ -48,9 +48,13 @@ class Application(Gtk.Application):
         for c in cs:
             sn = c.get_attribute_byte_string("standard::name")
             fn_dict[sn] = fs[0].get_child(sn)
-        win.set_images(sorted(fn_dict.items(), key=lambda x: GLib.utf8_collate_key_for_filename(x[0], -1)))
+        win.set_images(sorted(fn_dict.items(), key=collate_key))
 
 
 def main(version):
     app = Application()
     return app.run(sys.argv)
+
+
+def collate_key(x):
+    return GLib.utf8_collate_key_for_filename(x[0], -1)

@@ -123,7 +123,6 @@ class ComicReaderWindow(Gtk.ApplicationWindow):
         self.images = images
         self.set_image_ix(0)
 
-
     def set_image(self, image):
         stream = image.read(None)
 
