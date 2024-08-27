@@ -1,0 +1,19 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+ColumnLimit: 100
+IndentWidth: 8
+ContinuationIndentWidth: 8
+UseTab: Always
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+AlignAfterOpenBracket: AlwaysBreak
+AllowShortFunctionsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+PenaltyReturnTypeOnItsOwnLine: 1000
+...
+

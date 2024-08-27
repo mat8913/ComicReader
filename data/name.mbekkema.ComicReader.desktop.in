@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Comic Reader
+Exec=comicreader
+Icon=name.mbekkema.ComicReader
+Terminal=false
+Type=Application
+Categories=Office;Viewer;GTK;GNOME;
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;

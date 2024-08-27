@@ -1,0 +1,36 @@
+{
+    "id" : "name.mbekkema.ComicReader",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "46",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "comicreader",
+    "finish-args" : [
+        "--socket=fallback-x11",
+        "--device=dri",
+        "--socket=wayland"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "comicreader",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/mat8913/ComicReader.git"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="comicreader">
+	<schema id="name.mbekkema.ComicReader" path="/name/mbekkema/ComicReader/">
+	</schema>
+</schemalist>

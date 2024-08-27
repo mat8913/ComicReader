@@ -1,0 +1,6 @@
+data/name.mbekkema.ComicReader.desktop.in
+data/name.mbekkema.ComicReader.metainfo.xml.in
+data/name.mbekkema.ComicReader.gschema.xml
+src/main.c
+src/comicreader-window.c
+src/comicreader-window.ui
