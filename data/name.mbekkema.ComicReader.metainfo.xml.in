@@ -3,6 +3,7 @@
 	<id>name.mbekkema.ComicReader.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
+	<summary>An app to read comic archives</summary>
 	<description>
 		<p>An app to read comic archives</p>
 	</description>
